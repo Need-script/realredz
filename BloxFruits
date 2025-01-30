@@ -1,0 +1,121 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Sigma Đông Quân",
+         Animation = "Script by 7A7(i think)"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id= 84726658449429",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Blox Fruit"})
+     local Tab2o = MakeTab({Name = "Coming Soon"})
+     local Tab3o = MakeTab({Name = "Coming Soon"})
+     local Tab4o = MakeTab({Name = "Coming Soon"})
+     local Tab5o = MakeTab({Name = "Untitled"})
+
+------- BUTTON
+    Section = AddSection(Tab1o, {"Note: Dùng TURBO LITE HUB giảm lag rồi hãy dùng script khác"})
+
+   Section = AddSection(Tab1o, {"Script No Key"})
+
+    AddButton(Tab1o, {
+     Name = "TURBO LITE HUB(dùng cái này để xoá đồ hoạ, giảm lag)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end })
+ 
+     AddButton(Tab1o, {
+     Name = "REDZ HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end })   AddButton(Tab1o, {
+     Name = "W-AZURE TRUE V2",
+    Callback = function()
+	 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end })
+    AddButton(Tab1o, {
+     Name = "SPEED X HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end })
+
+AddButton(Tab1o, {
+     Name = "QUARTYZ HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://auth.quartyz.com/scripts/Loader.lua"))()
+  end})
+
+AddButton(Tab1o, {
+     Name = "TRẨU ROBLOX HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauXt"))()
+  end})
+
+AddButton(Tab1o, {
+     Name = "RISE HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))()
+  end})
+
+AddButton(Tab1o, {
+     Name = "DOMADIC HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+  end})
+
+   Section = AddSection(Tab1o, {"Script Có Key"})
+
+    AddButton(Tab1o, {
+     Name = "KNCRYPT HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
+  end})
+
+    AddButton(Tab1o, {
+     Name = "FORGE HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+  end})
+
+AddButton(Tab1o, {
+     Name = "COKKA HUB",
+    Callback = function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  end})
+
+AddButton(Tab1o, {
+     Name = "NAOKI HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://naokihub.vercel.app",true))()
+  end})
+
+   Section = AddSection(Tab5o, {"Creator: Đông Quân"})
+
+   Section = AddSection(Tab5o, {"Inspired by NghiaRobloxYT"})
+
+   Section = AddSection(Tab5o, {"Danh sách donate: None yet"})
+
+   Section = AddSection(Tab5o, {"Donate script nhiều lên ae, để t còn có động lực làm tiếp😊"})
