@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Sigma Đông Quân",
-         Animation = "Script by 7A7(i think)"
+         Title = "Đông Quân Hub First Edition",
+         Animation = "Script By Đông Quân"
          },
         Key = {
         KeySystem = false,
@@ -28,34 +28,34 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
-      
------- Tab
      local Tab1o = MakeTab({Name = "Blox Fruit"})
-     local Tab2o = MakeTab({Name = "Coming Soon"})
+     local Tab2o = MakeTab({Name = "Blue Lock: Rivals"})
      local Tab3o = MakeTab({Name = "Coming Soon"})
      local Tab4o = MakeTab({Name = "Coming Soon"})
      local Tab5o = MakeTab({Name = "Untitled"})
 
-------- BUTTON
     Section = AddSection(Tab1o, {"Note: Dùng TURBO LITE HUB giảm lag rồi hãy dùng script khác"})
 
    Section = AddSection(Tab1o, {"Script No Key"})
 
-    AddButton(Tab1o, {
+AddButton(Tab1o, {
      Name = "TURBO LITE HUB(dùng cái này để xoá đồ hoạ, giảm lag)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end })
  
-     AddButton(Tab1o, {
+AddButton(Tab1o, {
      Name = "REDZ HUB",
     Callback = function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-  end })   AddButton(Tab1o, {
+  end })   
+
+AddButton(Tab1o, {
      Name = "W-AZURE TRUE V2",
     Callback = function()
 	 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end })
+
     AddButton(Tab1o, {
      Name = "SPEED X HUB",
     Callback = function()
@@ -86,6 +86,12 @@ AddButton(Tab1o, {
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
   end})
 
+AddButton(Tab1o, {
+     Name = "XERO HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end})
+
    Section = AddSection(Tab1o, {"Script Có Key"})
 
     AddButton(Tab1o, {
@@ -110,6 +116,64 @@ AddButton(Tab1o, {
      Name = "NAOKI HUB",
     Callback = function()
 	loadstring(game:HttpGet("https://naokihub.vercel.app",true))()
+  end})
+
+AddButton(Tab1o, {
+     Name = "HOHO HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end})
+
+AddButton(Tab1o, {
+     Name = "ALCHEMY HUB",
+    Callback = function()
+	loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  end})
+
+   Section = AddSection(Tab2o, {"Script No Key"})
+
+AddButton(Tab2o, {
+     Name = "TBAO HUB",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals"))()
+  end})
+
+AddButton(Tab2o, {
+     Name = "ARBIX HUB(GK)",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Arbix--Hub/refs/heads/main/Blue!ock.lua"))()
+  end})
+
+   Section = AddSection(Tab2o, {"Script Có Key"})
+
+AddButton(Tab2o, {
+     Name = "THAIBAO HUB",
+    Callback = function()
+	  loadstring(game:HttpGet(('https://pastefy.app/ZcC3BzKb/raw'),true))()
+  end})
+
+AddButton(Tab2o, {
+     Name = "NS HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot"))()
+  end})
+
+AddButton(Tab2o, {
+     Name = "RINNS HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+  end})
+
+AddButton(Tab2o, {
+     Name = "EXECUTIVE HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bhusant/Pillar-chase/refs/heads/main/KeySystem"))()
+  end})
+
+AddButton(Tab2o, {
+     Name = "ALCHEMY HUB",
+    Callback = function()
+	 loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
   end})
 
    Section = AddSection(Tab5o, {"Creator: Đông Quân"})
